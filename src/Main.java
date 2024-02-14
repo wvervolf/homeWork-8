@@ -80,7 +80,7 @@ public class Main {
             }else {
                 first[i] += 1;
             }
-            System.out.println(first[i]);
         }
+        System.out.println(Arrays.toString(first));
     }
 }
