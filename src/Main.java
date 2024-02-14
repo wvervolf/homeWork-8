@@ -1,4 +1,5 @@
 import javax.lang.model.element.AnnotationValue;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args){
@@ -75,10 +76,11 @@ public class Main {
         //        first[2] = 3;
         for (int i= 0; i < first.length; i++){
             if (first[i] % 2 == 0){
-                System.out.println(first[i]);
+                first[i] += 0;
             }else {
-                System.out.println(first[i] + 1);
+                first[i] += 1;
             }
+            System.out.println(first[i]);
         }
     }
 }
